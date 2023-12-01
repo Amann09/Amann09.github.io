@@ -66,9 +66,15 @@
         type="text/x-mathjax-config"> MathJax.Hub.Config({ tex2jax: { inlineMath: [ ['$','$'], ["\\(","\\)"] ], processEscapes: true } }); </script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
     <!-- end custom head snippets -->
+<!--     Adding Ubuntu font from google font  -->
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,700&display=swap" rel="stylesheet">
     <style>
         .page__footer-copyright{
             text-align: center;
+        }
+
+        .enthusiast{
+            font-family: 'Ubuntu', sans-serif;
         }
     </style>
 </head>
@@ -100,7 +106,7 @@
                         <font size="+2">Aman Ansari</font>
                     </h3>
                     <p class="author__bio">
-                        an <font color="green" size="+0.8" face="Cursive">AI Enthusiast</font>.
+                        an <font color="green" size="+0.8" face="Cursive" class="enthusiast">AI Enthusiast</font>.
                     </p>
                 </div>
                 <div class="author__urls-wrapper"> <button class="btn btn--inverse">Follow</button>
